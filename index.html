@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Kyle Kostner" />
+  <title>Field &amp; Feast</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- GROUP: Site header -->
+  <header>
+    <!-- PIECE: Brand image -->
+    <figure>
+      <img src="images/fieldandfeast-logo.png" alt="Field &amp; Feast logo">
+    </figure>
+    <!-- PIECE: Site title -->
+    <h1>Field &amp; Feast</h1>
+    <!-- PIECE: Tagline -->
+    <p class="tagline">Harvested with Care, Served with Elegance</p>
+
+    <!-- PIECE: Primary navigation -->
+    <nav aria-label="Primary">
+      <h2 class="visually-hidden">Menu</h2>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#offerings">Offerings</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- GROUP: About -->
+    <section id="about" aria-labelledby="about-title">
+      <!-- PIECE: Section heading -->
+      <h2 id="about-title">Welcome to Field &amp; Feast</h2>
+      <!-- PIECE: Intro paragraph -->
+      <p>
+        At Field &amp; Feast, we believe that the finest meals begin at the source. Rooted in tradition yet refined for the modern palate, our farm-to-table philosophy celebrates the beauty of seasonality, sustainability, and craftsmanship. From the sun-drenched fields where our produce is grown to the artfully curated dishes we serve, every detail is designed to bring you an experience of unparalleled quality and flavor.
+      </p>
+      <!-- PIECE: Decorative rule -->
+      <hr class="section-rule">
+    </section>
+
+    <!-- GROUP: Offerings -->
+    <section id="offerings" aria-labelledby="offerings-title">
+      <!-- PIECE: Section heading -->
+      <h2 id="offerings-title">Our Offerings</h2>
+
+      <!-- PIECE: Offering card -->
+      <article aria-labelledby="artisan-provisions-title">
+        <h3 id="artisan-provisions-title">Artisan Provisions</h3>
+        <p>Hand-selected, seasonal ingredients sourced from our estate farm and trusted local growers. Each item is chosen for its freshness, flavor, and integrity.</p>
+      </article>
+
+      <!-- PIECE: Offering card -->
+      <article aria-labelledby="exclusive-dining-title">
+        <h3 id="exclusive-dining-title">Exclusive Dining Experiences</h3>
+        <p>Join us for intimate chef-led tastings and farm-to-table feasts, where carefully crafted menus highlight the best of the season.</p>
+      </article>
+
+      <!-- PIECE: Offering card (feature) -->
+      <article aria-labelledby="monthly-basket-title">
+        <h3 id="monthly-basket-title">The Field &amp; Feast Monthly Basket</h3>
+        <p>Experience a curated selection of premium seasonal ingredients delivered to your doorstep each month.</p>
+        <ul>
+          <li><strong>Hand-Harvested Produce:</strong> Fresh, organic fruits and vegetables.</li>
+          <li><strong>Artisan-Crafted Goods:</strong> Specialty cheeses, house-made preserves, and small-batch baked goods.</li>
+          <li><strong>Exclusive Recipes &amp; Pairings:</strong> Thoughtfully designed by our chefs to inspire culinary creativity.</li>
+        </ul>
+        <p>Elevate your home dining with the finest farm-to-table offerings, elegantly packaged and delivered with care.</p>
+      </article>
+    </section>
+
+    <!-- GROUP: Gallery -->
+    <section id="gallery" aria-labelledby="gallery-title">
+      <!-- PIECE: Section heading -->
+      <h2 id="gallery-title">A Gallery of Field &amp; Feast</h2>
+      <!-- PIECE: Section intro -->
+      <p>
+        Experience the elegance and artistry behind Field &amp; Feast through our curated collection of images. From lush fields and handcrafted ingredients to beautifully plated farm-to-table creations, each photo tells the story of our commitment to excellence.
+      </p>
+
+      <!-- PIECE: Gallery item list (each item is an article with a figure) -->
+      <ul class="gallery-grid">
+        <li>
+          <article>
+            <figure>
+              <img
+                src="images/tomatoes-200w.jpg"
+                srcset="images/tomatoes-200w.jpg 200w, images/tomatoes-300w.jpg 300w, images/tomatoes-600w.jpg 600w"
+                sizes="(min-width: 1200px) 600px, (min-width: 900px) 300px, 200px"
+                alt="Heirloom tomatoes on the vine.">
+              <figcaption>Heirloom tomatoes at peak ripeness.</figcaption>
+            </figure>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <figure>
+              <img
+                src="images/olive-oil-200w.jpg"
+                srcset="images/olive-oil-200w.jpg 200w, images/olive-oil-300w.jpg 300w, images/olive-oil-600w.jpg 600w"
+                sizes="(min-width: 1200px) 600px, (min-width: 900px) 300px, 200px"
+                alt="Golden olive oil drizzled over fresh harvest.">
+              <figcaption>Drizzling golden olive oil over fresh harvest.</figcaption>
+            </figure>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <figure>
+              <img
+                src="images/table-setting-200w.jpg"
+                srcset="images/table-setting-200w.jpg 200w, images/table-setting-300w.jpg 300w, images/table-setting-600w.jpg 600w"
+                sizes="(min-width: 1200px) 600px, (min-width: 900px) 300px, 200px"
+                alt="Elegant outdoor tablescape in the evening.">
+              <figcaption>Elegant tablescape under the evening sky.</figcaption>
+            </figure>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <figure>
+              <img
+                src="images/chef-plating-200w.jpg"
+                srcset="images/chef-plating-200w.jpg 200w, images/chef-plating-300w.jpg 300w, images/chef-plating-600w.jpg 600w"
+                sizes="(min-width: 1200px) 600px, (min-width: 900px) 300px, 200px"
+                alt="Chef artfully plating seasonal ingredients.">
+              <figcaption>Artful plating with seasonal ingredients.</figcaption>
+            </figure>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <figure>
+              <img
+                src="images/basket-200w.jpg"
+                srcset="images/basket-200w.jpg 200w, images/basket-300w.jpg 300w, images/basket-600w.jpg 600w"
+                sizes="(min-width: 1200px) 600px, (min-width: 900px) 300px, 200px"
+                alt="A basket filled with fresh seasonal produce.">
+              <figcaption>Our monthly basket, curated with care.</figcaption>
+            </figure>
+          </article>
+        </li>
+      </ul>
+
+      <!-- PIECE: Button -->
+      <p>
+        <a class="button" href="#" rel="noopener">View Our Full Gallery</a>
+      </p>
+    </section>
+
+    <!-- PIECE: Decorative rule -->
+    <hr class="section-rule">
+
+  </main>
+
+  <!-- GROUP: Footer -->
+  <footer>
+    <!-- PIECE: Contact address -->
+    <address>
+      <p>123 Estate Lane, Wine Country, CA</p>
+      <p><a href="tel:+15551234567">(555) 123-4567</a></p>
+      <p><a href="mailto:hello@fieldandfeast.com">hello@fieldandfeast.com</a></p>
+    </address>
+
+    <!-- PIECE: Social links -->
+    <nav aria-label="Social">
+      <ul>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
